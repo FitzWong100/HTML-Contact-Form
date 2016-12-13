@@ -1,6 +1,7 @@
 body		{
 			margin: 0 auto;
 			width: 100%;
+			font-family: 'Merriweather', serif;
 			}
 label , p	{
 			color: #797A7D; 
@@ -65,8 +66,8 @@ form p 		{
 input		{
 			width:100%;
 			height: 50px;
+			text-align: right;
 			}
-
 .formbox .zipcode	{
 			width: 50%;
 			margin-left: 0;
@@ -87,6 +88,7 @@ select 		{
 			float: left;
 			height: 65px;
 			}
+}
 .formbox2 input[type="checkbox"] {
    			background-color: #2E384C;
 			}
@@ -111,8 +113,34 @@ select 		{
 			height: 60px;
 			display: block;
 			margin: 0 auto;
+			text-align: center;
 			border-radius: 5px;
 			}
-@media (min-width: 700px) {
-			
+@media (min-width: 768px) {
+body		{
+			width: 70%;
 			}
+#firstform 	{
+			display: block;
+			clear: both;
+			font-size: 60%;
+
+			}
+#firstform label{
+			width: 35%;
+			float: left;
+			padding: 20px 0 21px 0;
+			}
+#firstform input{
+			width: 60%;
+			float: right;
+			padding: 0px;
+			margin: 5px;
+			}
+select 		{
+			width: 60%;
+			float: right;
+			padding: 0px;
+			margin: 5px;
+			}
+
